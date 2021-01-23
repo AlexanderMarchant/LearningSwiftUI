@@ -19,8 +19,8 @@ struct WeatherView: View {
             
             LinearGradient(
                 gradient: Gradient(colors: [lightBlue, blue]),
-                    startPoint: .top,
-                    endPoint: .bottom)
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             
             VStack(alignment: .center, spacing: 20) {
