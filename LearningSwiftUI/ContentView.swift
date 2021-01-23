@@ -26,24 +26,40 @@ struct ContentView: View {
         
         var postTaxAmount: Double = 0
         
-        if(totalPreTax > 12000) {
-            postTaxAmount += 12000
-            var taxableAmount = totalPreTax - 12000
+        if(totalPreTax > 12500) {
+            postTaxAmount += 12500
+            var taxableAmount = totalPreTax - 12500
             
-            if(taxableAmount > 40000) {
-                let higherTaxBracketTaxableAmount = taxableAmount - 40000
+            // 50% Tax Bracket
+            if(taxableAmount > 137500) {
+                let fiftyPercentTaxBracketTaxableAmount = taxableAmount - 137500
                 
-                taxableAmount -= higherTaxBracketTaxableAmount
+                taxableAmount -= fiftyPercentTaxBracketTaxableAmount
                 
-                postTaxAmount += (higherTaxBracketTaxableAmount * 0.60)
+                print("BEFORE 50%: \(postTaxAmount)")
+                postTaxAmount += (fiftyPercentTaxBracketTaxableAmount * 0.50)
+            }
+            
+            // 40% Tax Bracket
+            if(taxableAmount > 37500) {
+                let fourtyPercentTaxBracketTaxableAmount = taxableAmount - 37500
+                
+                taxableAmount -= fourtyPercentTaxBracketTaxableAmount
+                
+                print("BEFORE 40%: \(postTaxAmount)")
+                postTaxAmount += (fourtyPercentTaxBracketTaxableAmount * 0.60)
                 
             }
             
+            print(taxableAmount)
+            print("BEFORE 20%: \(postTaxAmount)")
+            // 20% Tax Bracket
             postTaxAmount += taxableAmount * 0.80
         } else {
             postTaxAmount = totalPreTax
         }
         
+        print("BEFORE BREAKDOWN: \(postTaxAmount)")
         return postTaxAmount / self.calculateBreakdown()
     }
     
