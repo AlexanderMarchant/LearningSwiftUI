@@ -11,7 +11,8 @@ struct TabView: View {
     
     let tabBarStrings = ["Salary", "Weather", "Coffee"]
     let tabBarIcons = ["briefcase", "cloud.sun", "house"]
-    @State private var selectedIndex = 1
+    
+    @State private var selectedIndex = 2
     
     var body: some View {
         
@@ -27,9 +28,9 @@ struct TabView: View {
                         let weatherViewModel = WeatherViewModel(weatherService)
                         WeatherView(viewModel: weatherViewModel)
                     case 2:
-                        NavigationView {
-                            SalaryCalculatorView()
-                        }
+                        let coffeeService = CoffeeService()
+                        let coffeeMenuViewModel = CoffeeMenuViewModel(coffeeService)
+                        CoffeeMenuView(viewModel: coffeeMenuViewModel)
                     default:
                         NavigationView {
                             SalaryCalculatorView()
@@ -49,9 +50,9 @@ struct TabView: View {
                         
                         VStack(spacing: 5) {
                             Image(systemName: tabBarIcons[num])
-                                .font(.system(size: 25, weight: .medium))
+                                .font(.system(size: 20, weight: .semibold))
                             Text(tabBarStrings[num])
-                                .font(.system(size: 15, weight: .medium))
+                                .font(.system(size: 12, weight: .medium))
                         }
                         .foregroundColor(selectedIndex == num ? Color.black : .init(white: 0.8))
                         

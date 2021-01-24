@@ -13,6 +13,15 @@
 		D4217BC225BCC40100E87464 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BC125BCC40100E87464 /* WeatherView.swift */; };
 		D4217BC725BCC55500E87464 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BC625BCC55500E87464 /* WeatherViewModel.swift */; };
 		D4217BD125BDA5D000E87464 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BD025BDA5D000E87464 /* TabView.swift */; };
+		D49D53CD25BDB19600EC6DE5 /* CoffeeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53CC25BDB19600EC6DE5 /* CoffeeMenuView.swift */; };
+		D49D53DB25BDB22200EC6DE5 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53DA25BDB22200EC6DE5 /* Drink.swift */; };
+		D49D53E125BDB2B000EC6DE5 /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53E025BDB2B000EC6DE5 /* CoffeeService.swift */; };
+		D49D53E625BDB2FF00EC6DE5 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = D49D53E525BDB2FF00EC6DE5 /* drinks.json */; };
+		D49D53EC25BDB4DC00EC6DE5 /* CoffeeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49D53EB25BDB4DC00EC6DE5 /* CoffeeImages.xcassets */; };
+		D49D53F125BDCF3C00EC6DE5 /* CoffeeMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53F025BDCF3C00EC6DE5 /* CoffeeMenuViewModel.swift */; };
+		D49D53F625BDD0DE00EC6DE5 /* CoffeeMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53F525BDD0DE00EC6DE5 /* CoffeeMenuItem.swift */; };
+		D49D53FB25BDD42D00EC6DE5 /* CoffeeMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D53FA25BDD42D00EC6DE5 /* CoffeeMenuRowView.swift */; };
+		D4DAE82C25BDF0D5005CDD76 /* CoffeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DAE82B25BDF0D5005CDD76 /* CoffeeDetailView.swift */; };
 		D4FD969925BC5A8800C3851E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969825BC5A8800C3851E /* AppDelegate.swift */; };
 		D4FD969B25BC5A8800C3851E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */; };
 		D4FD969D25BC5A8800C3851E /* SalaryCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969C25BC5A8800C3851E /* SalaryCalculatorView.swift */; };
@@ -47,6 +56,15 @@
 		D4217BC125BCC40100E87464 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		D4217BC625BCC55500E87464 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		D4217BD025BDA5D000E87464 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		D49D53CC25BDB19600EC6DE5 /* CoffeeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuView.swift; sourceTree = "<group>"; };
+		D49D53DA25BDB22200EC6DE5 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		D49D53E025BDB2B000EC6DE5 /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeService.swift; sourceTree = "<group>"; };
+		D49D53E525BDB2FF00EC6DE5 /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		D49D53EB25BDB4DC00EC6DE5 /* CoffeeImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CoffeeImages.xcassets; sourceTree = "<group>"; };
+		D49D53F025BDCF3C00EC6DE5 /* CoffeeMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuViewModel.swift; sourceTree = "<group>"; };
+		D49D53F525BDD0DE00EC6DE5 /* CoffeeMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuItem.swift; sourceTree = "<group>"; };
+		D49D53FA25BDD42D00EC6DE5 /* CoffeeMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuRowView.swift; sourceTree = "<group>"; };
+		D4DAE82B25BDF0D5005CDD76 /* CoffeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailView.swift; sourceTree = "<group>"; };
 		D4FD969525BC5A8800C3851E /* LearningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD969825BC5A8800C3851E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +109,7 @@
 		D4217BAE25BCBF4400E87464 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D49D53DF25BDB2A400EC6DE5 /* CoffeeService */,
 				D4217BAF25BCBF5200E87464 /* WeatherService */,
 			);
 			path = Services;
@@ -143,6 +162,9 @@
 		D4217BCD25BDA54300E87464 /* Coffee Data */ = {
 			isa = PBXGroup;
 			children = (
+				D49D53C825BDB10B00EC6DE5 /* Coffee Menu */,
+				D49D53C725BDB10100EC6DE5 /* Coffee Detail */,
+				D49D53DA25BDB22200EC6DE5 /* Drink.swift */,
 			);
 			path = "Coffee Data";
 			sourceTree = "<group>";
@@ -155,6 +177,51 @@
 				D4217BCD25BDA54300E87464 /* Coffee Data */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		D49D53C725BDB10100EC6DE5 /* Coffee Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D4DAE82B25BDF0D5005CDD76 /* CoffeeDetailView.swift */,
+			);
+			path = "Coffee Detail";
+			sourceTree = "<group>";
+		};
+		D49D53C825BDB10B00EC6DE5 /* Coffee Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D49D53FF25BDDDDA00EC6DE5 /* CoffeeMenuRow */,
+				D49D53CC25BDB19600EC6DE5 /* CoffeeMenuView.swift */,
+				D49D53F025BDCF3C00EC6DE5 /* CoffeeMenuViewModel.swift */,
+			);
+			path = "Coffee Menu";
+			sourceTree = "<group>";
+		};
+		D49D53DF25BDB2A400EC6DE5 /* CoffeeService */ = {
+			isa = PBXGroup;
+			children = (
+				D49D53E025BDB2B000EC6DE5 /* CoffeeService.swift */,
+				D49D53E525BDB2FF00EC6DE5 /* drinks.json */,
+			);
+			path = CoffeeService;
+			sourceTree = "<group>";
+		};
+		D49D53EA25BDB4CE00EC6DE5 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4FD969E25BC5A8C00C3851E /* Assets.xcassets */,
+				D49D53EB25BDB4DC00EC6DE5 /* CoffeeImages.xcassets */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		D49D53FF25BDDDDA00EC6DE5 /* CoffeeMenuRow */ = {
+			isa = PBXGroup;
+			children = (
+				D49D53FA25BDD42D00EC6DE5 /* CoffeeMenuRowView.swift */,
+				D49D53F525BDD0DE00EC6DE5 /* CoffeeMenuItem.swift */,
+			);
+			path = CoffeeMenuRow;
 			sourceTree = "<group>";
 		};
 		D4FD968C25BC5A8800C3851E = {
@@ -180,11 +247,11 @@
 		D4FD969725BC5A8800C3851E /* LearningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D49D53EA25BDB4CE00EC6DE5 /* Content */,
 				D4217BCB25BDA52900E87464 /* Views */,
 				D4217BAE25BCBF4400E87464 /* Services */,
 				D4FD969825BC5A8800C3851E /* AppDelegate.swift */,
 				D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */,
-				D4FD969E25BC5A8C00C3851E /* Assets.xcassets */,
 				D4FD96A325BC5A8C00C3851E /* LaunchScreen.storyboard */,
 				D4FD96A625BC5A8C00C3851E /* Info.plist */,
 				D4FD96A025BC5A8C00C3851E /* Preview Content */,
@@ -323,6 +390,8 @@
 			files = (
 				D4FD96A525BC5A8C00C3851E /* LaunchScreen.storyboard in Resources */,
 				D4FD96A225BC5A8C00C3851E /* Preview Assets.xcassets in Resources */,
+				D49D53E625BDB2FF00EC6DE5 /* drinks.json in Resources */,
+				D49D53EC25BDB4DC00EC6DE5 /* CoffeeImages.xcassets in Resources */,
 				D4FD969F25BC5A8C00C3851E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,14 +418,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4217BB125BCBF6C00E87464 /* WeatherService.swift in Sources */,
+				D49D53F125BDCF3C00EC6DE5 /* CoffeeMenuViewModel.swift in Sources */,
 				D4217BB725BCC0D700E87464 /* OpenWeatherAPI.swift in Sources */,
 				D4FD969925BC5A8800C3851E /* AppDelegate.swift in Sources */,
+				D49D53DB25BDB22200EC6DE5 /* Drink.swift in Sources */,
 				D4FD969B25BC5A8800C3851E /* SceneDelegate.swift in Sources */,
 				D4217BBD25BCC13900E87464 /* Weather.swift in Sources */,
+				D4DAE82C25BDF0D5005CDD76 /* CoffeeDetailView.swift in Sources */,
+				D49D53CD25BDB19600EC6DE5 /* CoffeeMenuView.swift in Sources */,
 				D4217BC725BCC55500E87464 /* WeatherViewModel.swift in Sources */,
 				D4217BC225BCC40100E87464 /* WeatherView.swift in Sources */,
 				D4217BD125BDA5D000E87464 /* TabView.swift in Sources */,
+				D49D53F625BDD0DE00EC6DE5 /* CoffeeMenuItem.swift in Sources */,
+				D49D53FB25BDD42D00EC6DE5 /* CoffeeMenuRowView.swift in Sources */,
 				D4FD969D25BC5A8800C3851E /* SalaryCalculatorView.swift in Sources */,
+				D49D53E125BDB2B000EC6DE5 /* CoffeeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

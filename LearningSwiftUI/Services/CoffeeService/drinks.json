@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1001,
+        "name": "Hot Coffee 1",
+        "imageName": "HotCoffee1",
+        "description": "It is the first hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 1002,
+        "name": "Hot Coffee 2",
+        "imageName": "HotCoffee2",
+        "description": "It is the second hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 1003,
+        "name": "Hot Coffee 3",
+        "imageName": "HotCoffee3",
+        "description": "It is the third hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 1004,
+        "name": "Hot Coffee 4",
+        "imageName": "HotCoffee4",
+        "description": "It is the fourth hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 1005,
+        "name": "Hot Coffee 5",
+        "imageName": "HotCoffee5",
+        "description": "It is the fifth hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 1006,
+        "name": "Hot Coffee 6",
+        "imageName": "HotCoffee6",
+        "description": "It is the sixth hot coffee in this list.",
+        "category": "Hot"
+    },
+    {
+        "id": 2001,
+        "name": "Cold Coffee 1",
+        "imageName": "ColdCoffee1",
+        "description": "It is the first cold coffee in this list.",
+        "category": "Cold"
+    },
+    {
+        "id": 2002,
+        "name": "Cold Coffee 2",
+        "imageName": "ColdCoffee2",
+        "description": "It is the second cold coffee in this list.",
+        "category": "Cold"
+    },
+    {
+        "id": 2003,
+        "name": "Cold Coffee 3",
+        "imageName": "ColdCoffee3",
+        "description": "It is the third cold coffee in this list.",
+        "category": "Cold"
+    },
+    {
+        "id": 2004,
+        "name": "Cold Coffee 4",
+        "imageName": "ColdCoffee4",
+        "description": "It is the fourth cold coffee in this list.",
+        "category": "Cold"
+    },
+    {
+        "id": 2005,
+        "name": "Cold Coffee 5",
+        "imageName": "ColdCoffee5",
+        "description": "It is the fifth cold coffee in this list.",
+        "category": "Cold"
+    },
+    {
+        "id": 2006,
+        "name": "Cold Coffee 6",
+        "imageName": "ColdCoffee6",
+        "description": "It is the sixth cold coffee in this list.",
+        "category": "Cold"
+    }
+]
