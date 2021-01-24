@@ -164,7 +164,6 @@
 			children = (
 				D49D53C825BDB10B00EC6DE5 /* Coffee Menu */,
 				D49D53C725BDB10100EC6DE5 /* Coffee Detail */,
-				D49D53DA25BDB22200EC6DE5 /* Drink.swift */,
 			);
 			path = "Coffee Data";
 			sourceTree = "<group>";
@@ -200,6 +199,7 @@
 		D49D53DF25BDB2A400EC6DE5 /* CoffeeService */ = {
 			isa = PBXGroup;
 			children = (
+				D49D53DA25BDB22200EC6DE5 /* Drink.swift */,
 				D49D53E025BDB2B000EC6DE5 /* CoffeeService.swift */,
 				D49D53E525BDB2FF00EC6DE5 /* drinks.json */,
 			);
