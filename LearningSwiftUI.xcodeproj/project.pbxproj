@@ -12,9 +12,10 @@
 		D4217BBD25BCC13900E87464 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BBC25BCC13900E87464 /* Weather.swift */; };
 		D4217BC225BCC40100E87464 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BC125BCC40100E87464 /* WeatherView.swift */; };
 		D4217BC725BCC55500E87464 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BC625BCC55500E87464 /* WeatherViewModel.swift */; };
+		D4217BD125BDA5D000E87464 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4217BD025BDA5D000E87464 /* TabView.swift */; };
 		D4FD969925BC5A8800C3851E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969825BC5A8800C3851E /* AppDelegate.swift */; };
 		D4FD969B25BC5A8800C3851E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */; };
-		D4FD969D25BC5A8800C3851E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969C25BC5A8800C3851E /* ContentView.swift */; };
+		D4FD969D25BC5A8800C3851E /* SalaryCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD969C25BC5A8800C3851E /* SalaryCalculatorView.swift */; };
 		D4FD969F25BC5A8C00C3851E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FD969E25BC5A8C00C3851E /* Assets.xcassets */; };
 		D4FD96A225BC5A8C00C3851E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FD96A125BC5A8C00C3851E /* Preview Assets.xcassets */; };
 		D4FD96A525BC5A8C00C3851E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD96A325BC5A8C00C3851E /* LaunchScreen.storyboard */; };
@@ -45,10 +46,11 @@
 		D4217BBC25BCC13900E87464 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		D4217BC125BCC40100E87464 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		D4217BC625BCC55500E87464 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		D4217BD025BDA5D000E87464 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		D4FD969525BC5A8800C3851E /* LearningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD969825BC5A8800C3851E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4FD969C25BC5A8800C3851E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4FD969C25BC5A8800C3851E /* SalaryCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorView.swift; sourceTree = "<group>"; };
 		D4FD969E25BC5A8C00C3851E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4FD96A125BC5A8C00C3851E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4FD96A425BC5A8C00C3851E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,6 +123,40 @@
 			path = Weather;
 			sourceTree = "<group>";
 		};
+		D4217BCB25BDA52900E87464 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4217BD025BDA5D000E87464 /* TabView.swift */,
+				D4217BCE25BDA5B800E87464 /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4217BCC25BDA53000E87464 /* Salary Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D4FD969C25BC5A8800C3851E /* SalaryCalculatorView.swift */,
+			);
+			path = "Salary Calculator";
+			sourceTree = "<group>";
+		};
+		D4217BCD25BDA54300E87464 /* Coffee Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Coffee Data";
+			sourceTree = "<group>";
+		};
+		D4217BCE25BDA5B800E87464 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				D4217BCC25BDA53000E87464 /* Salary Calculator */,
+				D4217BBB25BCC12D00E87464 /* Weather */,
+				D4217BCD25BDA54300E87464 /* Coffee Data */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		D4FD968C25BC5A8800C3851E = {
 			isa = PBXGroup;
 			children = (
@@ -144,11 +180,10 @@
 		D4FD969725BC5A8800C3851E /* LearningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D4217BBB25BCC12D00E87464 /* Weather */,
+				D4217BCB25BDA52900E87464 /* Views */,
 				D4217BAE25BCBF4400E87464 /* Services */,
 				D4FD969825BC5A8800C3851E /* AppDelegate.swift */,
 				D4FD969A25BC5A8800C3851E /* SceneDelegate.swift */,
-				D4FD969C25BC5A8800C3851E /* ContentView.swift */,
 				D4FD969E25BC5A8C00C3851E /* Assets.xcassets */,
 				D4FD96A325BC5A8C00C3851E /* LaunchScreen.storyboard */,
 				D4FD96A625BC5A8C00C3851E /* Info.plist */,
@@ -320,7 +355,8 @@
 				D4217BBD25BCC13900E87464 /* Weather.swift in Sources */,
 				D4217BC725BCC55500E87464 /* WeatherViewModel.swift in Sources */,
 				D4217BC225BCC40100E87464 /* WeatherView.swift in Sources */,
-				D4FD969D25BC5A8800C3851E /* ContentView.swift in Sources */,
+				D4217BD125BDA5D000E87464 /* TabView.swift in Sources */,
+				D4FD969D25BC5A8800C3851E /* SalaryCalculatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

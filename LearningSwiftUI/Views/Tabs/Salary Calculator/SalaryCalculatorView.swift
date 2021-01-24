@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SalaryCalculatorView.swift
 //  LearningSwiftUI
 //
 //  Created by Alex Marchant on 23/01/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SalaryCalculatorView: View {
     
     let breakDowns = ["Daily", "Monthly", "Yearly"]
     let savePercentages = [5, 10, 20, 30, 40, 50]
@@ -136,6 +136,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SalaryCalculatorView()
     }
 }
