@@ -1,6 +1,6 @@
 # LearningSwiftUI
 
-A project completly built in Swift UI to help me learn Swift UI.
+A project completely built-in Swift UI to help me learn Swift UI.
 
 ## Things Covered
 
@@ -10,7 +10,8 @@ A project completly built in Swift UI to help me learn Swift UI.
 - Working with Lists
 - Working with Stack Views
 - Working with embedded stack views and lists
-- MVVM architechture
+- MVVM architecture
 - API integration
 - Custom view creation and reusability
 - View/Element attribute customisation
+
